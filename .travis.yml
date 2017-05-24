@@ -1,2 +1,10 @@
-## YAML Template.
----
+language: java
+branches:
+  only:
+     master
+notifications:
+  email:
+    recipients:
+      santiagocadavidbte@gmail.com
+jdk: oraclejdk8
+script: mvn clean install
